@@ -1,0 +1,7 @@
+.peliculas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta el tamaño mínimo y máximo de las columnas aquí */
+    gap: 1rem; /* Espacio entre películas */
+    padding: 1rem; /* Añade un poco de espacio alrededor del grid */
+  }
+  

@@ -1,0 +1,24 @@
+/* PeliculaDetalles.css */
+.detalles-container {
+    display: flex;
+    flex-direction: row; /* Asegura que los elementos se dispongan en fila */
+    align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .detalles-imagen {
+    flex: 1; /* Permite que la imagen crezca pero controla su tamaño máximo */
+    max-width: 300px; /* Máximo tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+  }
+  
+  .detalles-info {
+    flex: 2; /* Da más espacio al texto en comparación con la imagen */
+    max-width: 60%; /* Controla el ancho máximo del texto */
+    font-size: 18px;
+    color: #666;
+  }
+  

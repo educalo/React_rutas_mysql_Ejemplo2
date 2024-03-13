@@ -1,0 +1,56 @@
+/* Estilos para Pelicula.js */
+.pelicula {
+    width: 200px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .pelicula:hover {
+    transform: scale(1.1);
+    z-index: 10;
+  }
+  
+  .pelicula-imagen {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .pelicula-info {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .pelicula:hover .pelicula-info {
+    transform: translateY(0);
+  }
+  
+  /* Estilos para PeliculasScreen.js */
+  .peliculas-contenedor {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+  }
+  
+  /* Oculta la barra de desplazamiento */
+  .peliculas-contenedor::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .peliculas-contenedor {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.texto{
+    color: aliceblue;
+    text-align: center;
+}  
